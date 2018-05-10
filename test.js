@@ -1,6 +1,6 @@
 // const myaddon = require('./build/Debug/myaddon');
 
-var myaddon = require('bindings')('myaddon.node')
+var myaddon = require('bindings')('myaddon.node');
 
 const result = myaddon.add(3);
 console.log('result of add:', result);
