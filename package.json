@@ -1,0 +1,17 @@
+{
+  "name": "mynativeaddon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "configure": "node-gyp configure",
+    "build": "node-gyp build --debug",
+    "gen-xcode": "node-gyp configure -- -f xcode"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.3.0"
+  }
+}
